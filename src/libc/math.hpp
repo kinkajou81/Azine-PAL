@@ -1,6 +1,9 @@
 #pragma once
 
 namespace azine {
+using float_t = float;
+using double_t = double;
+
 constexpr float acos(float x);
 constexpr double acos(double x);
 constexpr long double acos(long double x);
