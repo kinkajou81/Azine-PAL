@@ -4,6 +4,18 @@
 #include <cmath>
 
 namespace azine {
+const float huge_valf = HUGE_VALF;
+const double huge_val = HUGE_VAL;
+const long double huge_vall = HUGE_VALL;
+
+const float infinity = INFINITY;
+
+const float nan = NAN;
+
+const int math_error_handling = math_errhandling;
+const int math_errno = MATH_ERRNO;
+const int math_errexcept = MATH_ERREXCEPT;
+
 constexpr float acos(float x) {
     return std::acosf(x);
 }

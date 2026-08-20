@@ -4,6 +4,18 @@ namespace azine {
 using float_t = float;
 using double_t = double;
 
+extern const float huge_valf;
+extern const double huge_val;
+extern const long double huge_vall;
+
+extern const float infinity;
+
+extern const float nan;
+
+extern const int math_error_handling;
+extern const int math_errno;
+extern const int math_errexcept;
+
 constexpr float acos(float x);
 constexpr double acos(double x);
 constexpr long double acos(long double x);
