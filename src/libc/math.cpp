@@ -377,15 +377,15 @@ constexpr long double lgamma(long double x) {
 }
 
 constexpr long long llrint(float x) {
-    return std::llrintf(x);
+    return ::llrintf(x);
 }
 
 constexpr long long llrint(double x) {
-    return std::llrint(x);
+    return ::llrint(x);
 }
 
 constexpr long long llrint(long double x) {
-    return std::llrintl(x);
+    return ::llrintl(x);
 }
 
 constexpr long long llround(float x) {
@@ -463,15 +463,15 @@ constexpr long double logb(long double x) {
 }
 
 constexpr float lrint(float x) {
-    return std::lrintf(x);
+    return ::lrintf(x);
 }
 
 constexpr double lrint(double x) {
-    return std::lrint(x);
+    return ::lrint(x);
 }
 
 constexpr long double lrint(long double x) {
-    return std::lrintl(x);
+    return ::lrintl(x);
 }
 
 constexpr float lround(float x) {
@@ -583,15 +583,15 @@ constexpr long double remquo(long double x, long double y, int* z) {
 }
 
 constexpr float rint(float x) {
-    return std::rintf(x);
+    return ::rintf(x);
 }
 
 constexpr double rint(double x) {
-    return std::rint(x);
+    return ::rint(x);
 }
 
 constexpr long double rint(long double x) {
-    return std::rintl(x);
+    return ::rintl(x);
 }
 
 constexpr float round(float x) {
