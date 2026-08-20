@@ -1,330 +1,331 @@
 #include "math.hpp"
 
 #include <math.h>
+#include <cmath>
 
 namespace azine {
 constexpr float acos(float x) {
-    return acosf(x);
+    return std::acosf(x);
 }
 
 constexpr double acos(double x) {
-    return ::acos(x);
+    return std::acos(x);
 }
 
 constexpr long double acos(long double x) {
-    return acosl(x);
+    return std::acosl(x);
 }
 
 constexpr float acosh(float x) {
-    return acoshf(x);
+    return std::acoshf(x);
 }
 
 constexpr double acosh(double x) {
-    return ::acosh(x);
+    return std::acosh(x);
 }
 
 constexpr long double acosh(long double x) {
-    return acoshl(x);
+    return std::acoshl(x);
 }
 
 constexpr float asin(float x) {
-    return asinf(x);
+    return std::asinf(x);
 }
 
 constexpr double asin(double x) {
-    return ::asin(x);
+    return std::asin(x);
 }
 
 constexpr long double asin(long double x) {
-    return asinl(x);
+    return std::asinl(x);
 }
 
 constexpr float asinh(float x) {
-    return asinhf(x);
+    return std::asinhf(x);
 }
 
 constexpr double asinh(double x) {
-    return ::asinh(x);
+    return std::asinh(x);
 }
 
 constexpr long double asinh(long double x) {
-    return asinhl(x);
+    return std::asinhl(x);
 }
 
 constexpr float atan(float x) {
-    return atanf(x);
+    return std::atanf(x);
 }
 
 constexpr double atan(double x) {
-    return ::atan(x);
+    return std::atan(x);
 }
 
 constexpr long double atan(long double x) {
-    return atanl(x);
+    return std::atanl(x);
 }
 
 constexpr float atanh(float x) {
-    return atanhf(x);
+    return std::atanhf(x);
 }
 
 constexpr double atanh(double x) {
-    return ::atanh(x);
+    return std::atanh(x);
 }
 
 constexpr long double atanh(long double x) {
-    return atanhl(x);
+    return std::atanhl(x);
 }
 
 constexpr float atan2(float x, float y) {
-    return atan2f(x, y);
+    return std::atan2f(x, y);
 }
 
 constexpr double atan2(double x, double y) {
-    return ::atan2(x, y);
+    return std::atan2(x, y);
 }
 
 constexpr long double atan2(long double x, long double y) {
-    return atan2l(x, y);
+    return std::atan2l(x, y);
 }
 
 constexpr float cbrt(float x) {
-    return cbrtf(x);
+    return std::cbrtf(x);
 }
 
 constexpr double cbrt(double x) {
-    return ::cbrt(x);
+    return std::cbrt(x);
 }
 
 constexpr long double cbrt(long double x) {
-    return cbrtl(x);
+    return std::cbrtl(x);
 }
 
 constexpr float ceil(float x) {
-    return ceilf(x);
+    return std::ceilf(x);
 }
 
 constexpr double ceil(double x) {
-    return ::ceil(x);
+    return std::ceil(x);
 }
 
 constexpr long double cail(long double x) {
-    return ceill(x);
+    return std::ceill(x);
 }
 
 constexpr float copysign(float x, float y) {
-    return copysignf(x, y);
+    return std::copysignf(x, y);
 }
 
 constexpr double copysign(double x, double y) {
-    return ::copysign(x, y);
+    return std::copysign(x, y);
 }
 
 constexpr long double copysign(long double x, long double y) {
-    return copysignl(x, y);
+    return std::copysignl(x, y);
 }
 
 constexpr float cos(float x) {
-    return cosf(x);
+    return std::cosf(x);
 }
 
 constexpr double cos(double x) {
-    return ::cos(x);
+    return std::cos(x);
 }
 
 constexpr long double cos(long double x) {
-    return cosl(x);
+    return std::cosl(x);
 }
 
 constexpr float cosh(float x) {
-    return coshf(x);
+    return std::coshf(x);
 }
 
 constexpr double cosh(double x) {
-    return ::cosh(x);
+    return std::cosh(x);
 }
 
 constexpr long double cosh(long double x) {
-    return coshl(x);
+    return std::coshl(x);
 }
 
 constexpr float erf(float x) {
-    return erff(x);
+    return std::erff(x);
 }
 
 constexpr double erf(double x) {
-    return ::erf(x);
+    return std::erf(x);
 }
 
 constexpr long double erf(long double x) {
-    return erfl(x);
+    return std::erfl(x);
 }
 
 constexpr float erfc(float x) {
-    return erfcf(x);
+    return std::erfcf(x);
 }
 
 constexpr double erfc(double x) {
-    return ::erfc(x);
+    return std::erfc(x);
 }
 
 constexpr long double erfc(long double x) {
-    return erfcl(x);
+    return std::erfcl(x);
 }
 
 constexpr float exp(float x) {
-    return expf(x);
+    return std::expf(x);
 }
 
 constexpr double exp(double x) {
-    return ::exp(x);
+    return std::exp(x);
 }
 
 constexpr long double exp(long double x) {
-    return expl(x);
+    return std::expl(x);
 }
 
 constexpr float exp2(float x) {
-    return exp2f(x);
+    return std::exp2f(x);
 }
 
 constexpr double exp2(double x) {
-    return ::exp2(x);
+    return std::exp2(x);
 }
 
 constexpr long double exp2(long double x) {
-    return exp2l(x);
+    return std::exp2l(x);
 }
 
 constexpr float expm1(float x) {
-    return expm1f(x);
+    return std::expm1f(x);
 }
 
 constexpr double expm1(double x) {
-    return ::expm1(x);
+    return std::expm1(x);
 }
 
 constexpr long double expm1(long double x) {
-    return expm1l(x);
+    return std::expm1l(x);
 }
 
 constexpr float abs(float x) {
-    return fabsf(x);
+    return std::fabsf(x);
 }
 
 constexpr double abs(double x) {
-    return fabs(x);
+    return std::fabs(x);
 }
 
 constexpr long double abs(long double x) {
-    return fabsl(x);
+    return std::fabsl(x);
 }
 
 constexpr float dim(float x, float y) {
-    return fdimf(x, y);
+    return std::fdimf(x, y);
 }
 
 constexpr double dim(double x, double y) {
-    return fdim(x, y);
+    return std::fdim(x, y);
 }
 
 constexpr long double dim(long double x, long double y) {
-    return fdiml(x, y);
+    return std::fdiml(x, y);
 }
 
 constexpr float floor(float x) {
-    return floorf(x);
+    return std::floorf(x);
 }
 
 constexpr double floor(double x) {
-    return ::floor(x);
+    return std::floor(x);
 }
 
 constexpr long double floor(long double x) {
-    return floorl(x);
+    return std::floorl(x);
 }
 
 constexpr float fma(float x, float y, float z) {
-    return fmaf(x, y, z);
+    return std::fmaf(x, y, z);
 }
 
 constexpr double fma(double x, double y, double z) {
-    return ::fma(x, y, z);
+    return std::fma(x, y, z);
 }
 
 constexpr long double fma(long double x, long double y, long double z) {
-    return fmal(x, y, z);
+    return std::fmal(x, y, z);
 }
 
 constexpr float max(float x, float y) {
-    return fmaxf(x, y);
+    return std::fmaxf(x, y);
 }
 
 constexpr double max(double x, double y) {
-    return fmax(x, y);
+    return std::fmax(x, y);
 }
 
 constexpr long double max(long double x, long double y) {
-    return fmaxl(x, y);
+    return std::fmaxl(x, y);
 }
 
 constexpr float min(float x, float y) {
-    return fminf(x, y);
+    return std::fminf(x, y);
 }
 
 constexpr double min(double x, double y) {
-    return fmin(x, y);
+    return std::fmin(x, y);
 }
 
 constexpr long double min(long double x, long double y) {
-    return fminl(x, y);
+    return std::fminl(x, y);
 }
 
 constexpr float mod(float x, float y) {
-    return fmodf(x, y);
+    return std::fmodf(x, y);
 }
 
 constexpr double mod(double x, double y) {
-    return fmod(x, y);
+    return std::fmod(x, y);
 }
 
 constexpr long double mod(long double x, long double y) {
-    return fmodl(x, y);
+    return std::fmodl(x, y);
 }
 
 constexpr float frexp(float x, int* y) {
-    return frexpf(x, y);
+    return std::frexpf(x, y);
 }
 
 constexpr double frexp(double x, int* y) {
-    return ::frexp(x, y);
+    return std::frexp(x, y);
 }
 
 constexpr long double frexp(long double x, int* y) {
-    return frexpl(x, y);
+    return std::frexpl(x, y);
 }
 
 constexpr float hypot(float x, float y) {
-    return hypotf(x, y);
+    return std::hypotf(x, y);
 }
 
 constexpr double hypot(double x, float y) {
-    return ::hypot(x, y);
+    return std::hypot(x, y);
 }
 
 constexpr long double hypot(long double x, long double y) {
-    return hypotl(x, y);
+    return std::hypotl(x, y);
 }
 
 constexpr int ilogb(float x) {
-    return ilogbf(x);
+    return std::ilogbf(x);
 }
 
 constexpr int ilogb(double x) {
-    return ::ilogb(x);
+    return std::ilogb(x);
 }
 
 constexpr int ilogb(long double x) {
-    return ilogbl(x);
+    return std::ilogbl(x);
 }
 
 constexpr double j0(double x) {
@@ -340,365 +341,365 @@ constexpr double jn(int x, double y) {
 }
 
 constexpr float ldexp(float x, float y) {
-    return ldexpf(x, y);
+    return std::ldexpf(x, y);
 }
 
 constexpr double ldexp(double x, double y) {
-    return ::ldexp(x, y);
+    return std::ldexp(x, y);
 }
 
 constexpr long double ldexp(long double x, long double y) {
-    return ldexpl(x, y);
+    return std::ldexpl(x, y);
 }
 
 constexpr float lgamma(float x) {
-    return lgammaf(x);
+    return std::lgammaf(x);
 }
 
 constexpr double lgamma(double x) {
-    return ::lgamma(x);
+    return std::lgamma(x);
 }
 
 constexpr long double lgamma(long double x) {
-    return lgammal(x);
+    return std::lgammal(x);
 }
 
 constexpr long long llrint(float x) {
-    return llrintf(x);
+    return std::llrintf(x);
 }
 
 constexpr long long llrint(double x) {
-    return ::llrint(x);
+    return std::llrint(x);
 }
 
 constexpr long long llrint(long double x) {
-    return llrintl(x);
+    return std::llrintl(x);
 }
 
 constexpr long long llround(float x) {
-    return llroundf(x);
+    return std::llroundf(x);
 }
 
 constexpr long long llround(double x) {
-    return ::llround(x);
+    return std::llround(x);
 }
 
 constexpr long long llround(long double x) {
-    return llroundl(x);
+    return std::llroundl(x);
 }
 
 constexpr float log(float x) {
-    return logf(x);
+    return std::logf(x);
 }
 
 constexpr double log(double x) {
-    return ::log(x);
+    return std::log(x);
 }
 
 constexpr long double log(long double x) {
-    return logl(x);
+    return std::logl(x);
 }
 
 constexpr float log10(float x) {
-    return log10f(x);
+    return std::log10f(x);
 }
 
 constexpr double log10(double x) {
-    return ::log10(x);
+    return std::log10(x);
 }
 
 constexpr long double log10(long double x) {
-    return log10l(x);
+    return std::log10l(x);
 }
 
 
 constexpr float log1p(float x) {
-    return log1pf(x);
+    return std::log1pf(x);
 }
 
 constexpr double log1p(double x) {
-    return ::log1p(x);
+    return std::log1p(x);
 }
 
 constexpr long double log1p(long double x) {
-    return log1pl(x);
+    return std::log1pl(x);
 }
 
 
 constexpr float log2(float x) {
-    return log2f(x);
+    return std::log2f(x);
 }
 
 constexpr double log2(double x) {
-    return ::log2(x);
+    return std::log2(x);
 }
 
 constexpr long double log2(long double x) {
-    return log2l(x);
+    return std::log2l(x);
 }
 
 constexpr float logb(float x) {
-    return logbf(x);
+    return std::logbf(x);
 }
 
 constexpr double logb(double x) {
-    return ::logb(x);
+    return std::logb(x);
 }
 
 constexpr long double logb(long double x) {
-    return logbl(x);
+    return std::logbl(x);
 }
 
 constexpr float lrint(float x) {
-    return lrintf(x);
+    return std::lrintf(x);
 }
 
 constexpr double lrint(double x) {
-    return ::lrint(x);
+    return std::lrint(x);
 }
 
 constexpr long double lrint(long double x) {
-    return lrintl(x);
+    return std::lrintl(x);
 }
 
 constexpr float lround(float x) {
-    return lroundf(x);
+    return std::lroundf(x);
 }
 
 constexpr double lround(double x) {
-    return ::lround(x);
+    return std::lround(x);
 }
 
 constexpr long double lround(long double x) {
-    return lroundl(x);
+    return std::lroundl(x);
 }
 
 constexpr float modf(float x, float* y) {
-    return modff(x, y);
+    return std::modff(x, y);
 }
 
 constexpr double modf(double x, double* y) {
-    return ::modf(x, y);
+    return std::modf(x, y);
 }
 
 constexpr long double modf(long double x, long double* y) {
-    return modfl(x, y);
+    return std::modfl(x, y);
 }
 
 constexpr float nanf(const char* x) {
-    return nanf(x);
+    return std::nanf(x);
 }
 
 constexpr double nan(const char* x) {
-    return ::nan(x);
+    return std::nan(x);
 }
 
 constexpr long double nanl(const char* x) {
-    return nanl(x);
+    return std::nanl(x);
 }
 
 constexpr float nearbyint(float x) {
-    return nearbyintf(x);
+    return std::nearbyintf(x);
 }
 
 constexpr double nearbyint(double x) {
-    return ::nearbyint(x);
+    return std::nearbyint(x);
 }
 
 constexpr long double nearbyint(long double x) {
-    return nearbyintl(x);
+    return std::nearbyintl(x);
 }
 
 constexpr float nextafter(float x, float y) {
-    return nextafterf(x, y);
+    return std::nextafterf(x, y);
 }
 
 constexpr double nextafter(double x, double y) {
-    return ::nextafter(x, y);
+    return std::nextafter(x, y);
 }
 
 constexpr long double nextafter(long double x, long double y) {
-    return nextafterl(x, y);
+    return std::nextafterl(x, y);
 }
 
 constexpr float nexttoward(float x, float y) {
-    return nexttowardf(x, y);
+    return std::nexttowardf(x, y);
 }
 
 constexpr double nexttoward(double x, double y) {
-    return ::nexttoward(x, y);
+    return std::nexttoward(x, y);
 }
 
 constexpr long double nexttoward(long double x, long double y) {
-    return nexttowardl(x, y);
+    return std::nexttowardl(x, y);
 }
 
 constexpr float pow(float x, float y) {
-    return powf(x, y);
+    return std::powf(x, y);
 }
 
 constexpr double pow(double x, double y) {
-    return ::pow(x, y);
+    return std::pow(x, y);
 }
 
 constexpr long double pow(long double x, long double y) {
-    return powl(x, y);
+    return std::powl(x, y);
 }
 
 constexpr float remainder(float x, float y) {
-    return remainderf(x, y);
+    return std::remainderf(x, y);
 }
 
 constexpr double remainder(double x, double y) {
-    return ::remainder(x, y);
+    return std::remainder(x, y);
 }
 
 constexpr long double remainder(long double x, long double y) {
-    return remainderl(x, y);
+    return std::remainderl(x, y);
 }
 
 constexpr float remquo(float x, float y, int* z) {
-    return remquof(x, y, z);
+    return std::remquof(x, y, z);
 }
 
 constexpr double remquo(double x, double y, int* z) {
-    return ::remquo(x, y, z);
+    return std::remquo(x, y, z);
 }
 
 constexpr long double remquo(long double x, long double y, int* z) {
-    return remquol(x, y, z);
+    return std::remquol(x, y, z);
 }
 
 constexpr float rint(float x) {
-    return rintf(x);
+    return std::rintf(x);
 }
 
 constexpr double rint(double x) {
-    return ::rint(x);
+    return std::rint(x);
 }
 
 constexpr long double rint(long double x) {
-    return rintl(x);
+    return std::rintl(x);
 }
 
 constexpr float round(float x) {
-    return roundf(x);
+    return std::roundf(x);
 }
 
 constexpr double round(double x) {
-    return ::round(x);
+    return std::round(x);
 }
 
 constexpr long double round(long double x) {
-    return roundl(x);
+    return std::roundl(x);
 }
 
 constexpr float scalbln(float x, long y) {
-    return scalblnf(x, y);
+    return std::scalblnf(x, y);
 }
 
 constexpr double scalbln(double x, long y) {
-    return ::scalbln(x, y);
+    return std::scalbln(x, y);
 }
 
 constexpr long double scalbln(long double x, long y) {
-    return scalblnl(x, y);
+    return std::scalblnl(x, y);
 }
 
 constexpr float scalbn(float x, int y) {
-    return scalbnf(x, y);
+    return std::scalbnf(x, y);
 }
 
 constexpr double scalbn(double x, int y) {
-    return ::scalbn(x, y);
+    return std::scalbn(x, y);
 }
 
 constexpr long double scalbn(long double x, int y) {
-    return scalbnl(x, y);
+    return std::scalbnl(x, y);
 }
 
 constexpr float sin(float x) {
-    return sinf(x);
+    return std::sinf(x);
 }
 
 constexpr double sin(double x) {
-    return ::sin(x);
+    return std::sin(x);
 }
 
 constexpr long double sin(long double x) {
-    return sinl(x);
+    return std::sinl(x);
 }
 
 constexpr float sinh(float x) {
-    return sinhf(x);
+    return std::sinhf(x);
 }
 
 constexpr double sinh(double x) {
-    return ::sinh(x);
+    return std::sinh(x);
 }
 
 constexpr long double sinh(long double x) {
-    return sinhl(x);
+    return std::sinhl(x);
 }
 
 constexpr float sqrt(float x) {
-    return sqrtf(x);
+    return std::sqrtf(x);
 }
 
 constexpr double sqrt(double x) {
-    return ::sqrt(x);
+    return std::sqrt(x);
 }
 
 constexpr long double sqrt(long double x) {
-    return sqrtl(x);
+    return std::sqrtl(x);
 }
 
 constexpr float tan(float x) {
-    return tanf(x);
+    return std::tanf(x);
 }
 
 constexpr double tan(double x) {
-    return ::tan(x);
+    return std::tan(x);
 }
 
 constexpr long double tan(long double x) {
-    return tanl(x);
+    return std::tanl(x);
 }
 
 constexpr float tanh(float x) {
-    return tanhf(x);
+    return std::tanhf(x);
 }
 
 constexpr double tanh(double x) {
-    return ::tanh(x);
+    return std::tanh(x);
 }
 
 constexpr long double tanh(long double x) {
-    return tanhl(x);
+    return std::tanhl(x);
 }
 
 constexpr float tgamma(float x) {
-    return tgammaf(x);
+    return std::tgammaf(x);
 }
 
 constexpr double tgamma(double x) {
-    return ::tgamma(x);
+    return std::tgamma(x);
 }
 
 constexpr long double tgamma(long double x) {
-    return tgammal(x);
+    return std::tgammal(x);
 }
 
 constexpr float trunc(float x) {
-    return truncf(x);
+    return std::truncf(x);
 }
 
 constexpr double trunc(double x) {
-    return ::trunc(x);
+    return std::trunc(x);
 }
 
 constexpr long double trunc(long double x) {
-    return truncl(x);
+    return std::truncl(x);
 }
 
 constexpr double y0(double x) {
