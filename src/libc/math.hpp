@@ -1,6 +1,5 @@
 #pragma once
 
-
 namespace azine {
 constexpr float acos(float x);
 constexpr double acos(double x);
