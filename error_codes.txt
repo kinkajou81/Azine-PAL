@@ -1,0 +1,9 @@
+** A List Of All Error Codes And Their Meaning
+*** All Programs Made Using Azine-PAL Are Recomended To Use These Existing Error Codes Or Add New Non-Overlapping Error Codes When Using common_error
+
+0 == success / not an error
+
+-1 == unknown/unspecified error
+-2 == out of memory error
+-3 == time out
+-4 == resource currently unavailable
