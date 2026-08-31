@@ -1,5 +1,7 @@
 #pragma once
 
+extern thread_local int common_error;
+
 // these may need to be defined depending on the system:
 // #define PREFETCHW_SUPPORTED // default: Not Defined
 // #define PREFETCHW1_SUPPORTED // default: Not Defined
